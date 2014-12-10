@@ -1,9 +1,10 @@
 <?
 
 //include("openings.php");
+ini_set('memory_limit','300M');
 include("functions.php");
 
-$openings = json_decode(file_get_contents('openingfens.json'), true);
+$openings = json_decode(file_get_contents('gmopeningfens.json'), true);
 
 if (isset($argv[2])) {
   $min = intval($argv[1]);
