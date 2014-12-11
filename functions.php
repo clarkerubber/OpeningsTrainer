@@ -113,42 +113,12 @@ function getMoves ( $startpos ) {
   } else {
     return false;
   }
-  
-  // Filter moves with poor evaluation
+
   echo "Ranking moves\n";
   $moveArray = array();
-  $no_good_move = true;
 
   foreach ( $candidateMoves as $key => $move ) {
-    if (abs($topEval - $candidateMovesEval[$key]) < 10
-      && $candidateMovesEval[$key] < 40) {
-      // Excellent move
-      echo "$move ".$candidateMovesEval[$key]." excellent continues: ".$candidateMovesLine[$key]."\n";
-      $no_good_move = false;
-      $moveArray[$move] = array('cp' => $candidateMovesEval[$key], 'result' => '1', 'line' => $candidateMovesLine[$key]);
-
-    } else if (abs($topEval - $candidateMovesEval[$key]) < 25
-      && $candidateMovesEval[$key] < 60) {
-      // Good move
-      echo "$move ".$candidateMovesEval[$key]." good continues: ".$candidateMovesLine[$key]."\n";
-      $no_good_move = false;
-      $moveArray[$move] = array('cp' => $candidateMovesEval[$key], 'result' => '2', 'line' => $candidateMovesLine[$key]);
-
-    } else if (abs($topEval - $candidateMovesEval[$key]) < 40
-      && $candidateMovesEval[$key] < 70) {
-      // Dubious
-      echo "$move ".$candidateMovesEval[$key]." dubious continues: ".$candidateMovesLine[$key]."\n";
-      $moveArray[$move] = array('cp' => $candidateMovesEval[$key], 'result' => '3', 'line' => $candidateMovesLine[$key]);
-      
-    } else {
-      // Bad
-      echo "$move ".$candidateMovesEval[$key]." bad continues: ".$candidateMovesLine[$key]."\n";
-      $moveArray[$move] = array('cp' => $candidateMovesEval[$key], 'result' => '4', 'line' => $candidateMovesLine[$key]);
-    }
-  }
-
-  if ($no_good_move) {
-    return false;
+    $moveArray[$move] = array('cp' => $candidateMovesEval[$key], 'line' => $candidateMovesLine[$key]);
   }
 
   return $moveArray;

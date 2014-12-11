@@ -8,4 +8,4 @@ $STOCKFISH_PATH = "/Users/clarkey/Documents/Development/lichess/stockfish-5-mac/
 $FIRST_PASS_TIME = 10000; // milliseconds to gather candidate moves
 $SECOND_PASS_TIME = 10000; // milliseconds to consider each candidate move
 
-$MULTIPV = 50;
+$MULTIPV = 15;
