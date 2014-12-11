@@ -1,0 +1,160 @@
+{
+    "fen": "rnbqkbnr\/pp3ppp\/4p3\/2pp4\/3P4\/5NP1\/PPP1PP1P\/RNBQKB1R w KQkq c6 0 0",
+    "moves": {
+        "f1g2": {
+            "cp": "-10",
+            "result": "1",
+            "line": "c5d4 e1g1 g8f6 f3d4 e6e5 d4b3 c8e6 c1g5 b8d7 e2e4 d5e4 b1d2 f8e7 d2e4 f6e4 g5e7 d8e7 g2e4 d7f6 d1f3 a8c8"
+        },
+        "c2c4": {
+            "cp": "-5",
+            "result": "1",
+            "line": "c5d4 f1g2 d8a5 b1d2 b8c6 e1g1 d5c4 d2c4 a5c5 d1b3 g8f6 e2e3 b7b5 c4a3 d4e3"
+        },
+        "e2e3": {
+            "cp": "16",
+            "result": "2",
+            "line": "b8c6 f1e2 g8f6 e1g1 f8e7 c2c4 e8g8 b2b3 c5d4 e3d4 f6e4 c1b2 b7b6 b1c3 c8b7 f1e1 a8c8 a2a3 c6a5 f3e5 f7f6 c3e4 f6e5"
+        },
+        "c1f4": {
+            "cp": "18",
+            "result": "2",
+            "line": "c5d4 f3d4 b8c6 b1c3 g8f6 e2e3 f8e7 f1e2 e8g8 e1g1 c8d7 a2a3 a7a6 d1d2 a8c8 f1d1 c6d4 e3d4 f6e4"
+        },
+        "c2c3": {
+            "cp": "22",
+            "result": "2",
+            "line": "g8f6 f1g2 f8e7 d4c5 e7c5 e1g1 e8g8 c1f4 b8d7"
+        },
+        "a2a3": {
+            "cp": "23",
+            "result": "2",
+            "line": "c5d4 f1g2 g8f6 e1g1 b8c6 f3d4 f8c5 d4c6 b7c6 c1f4 e8g8 b2b4 c5e7 c2c4 a7a5 b4b5 c6b5 c4b5 c8b7 b1c3 a8c8 c3a4 f6d7 d1d3"
+        },
+        "d4c5": {
+            "cp": "25",
+            "result": "2",
+            "line": "f8c5 f1g2 g8f6 c2c4 e8g8 c4d5 e6d5 e1g1 b8c6 c1g5 h7h6 g5f6 d8f6 b1c3 c8e6 a1c1 f8d8 e2e3 a8c8 a2a3 c5e7 f3d2 a7a6"
+        },
+        "a2a4": {
+            "cp": "31",
+            "result": "3",
+            "line": "c5d4 f3d4 g8f6 f1g2 f8b4 c2c3 b4e7 e1g1 e8g8 c1g5 b8c6 b1a3 c8d7 a3c2 c6d4 c2d4 a8c8 g5f6 e7f6 e2e4 e6e5 d4c2 d5e4"
+        },
+        "c1e3": {
+            "cp": "31",
+            "result": "3",
+            "line": "c5d4 e3d4 b8c6 f1g2 g8f6 e1g1 c6d4 d1d4 d8c7 b1c3 f8c5 d4d3 e8g8 a1d1 a7a6 a2a3 c8d7 e2e4 d5e4 c3e4 f6e4 d3e4"
+        },
+        "b1c3": {
+            "cp": "33",
+            "result": "3",
+            "line": "c5d4 f3d4 e6e5 d4b3 d5d4 c3e4 f7f5 e4g5 b8c6 f1g2 f8e7 f2f4 e5e4 e2e3 g8f6 b3d4 c6d4 d1d4 d8d4"
+        },
+        "f1h3": {
+            "cp": "40",
+            "result": "3",
+            "line": "c5d4 e1g1 g8f6 f3d4 e6e5 h3c8 d8c8 d4b3 b8d7 c1g5 c8c6 g5f6 d7f6 e2e3 a7a5 a2a3 f8d6 b1c3 a5a4 b3d2 e5e4 g1g2 e8g8 f2f3 d6e5 f3e4"
+        },
+        "d1d2": {
+            "cp": "41",
+            "result": "3",
+            "line": "g8f6 f1g2 b8c6 e1g1 f8d6 c2c4 e8g8 b1c3 a7a6 d4c5 d6c5 c4d5 e6d5 e2e3 c8g4 f1d1"
+        },
+        "c1d2": {
+            "cp": "45",
+            "result": "3",
+            "line": "c5d4 f3d4 g8f6 f1g2 f8e7 e1g1 e8g8 b1c3 h7h6 d2f4 b8d7 d4f3 a7a6"
+        },
+        "h2h4": {
+            "cp": "47",
+            "result": "3",
+            "line": "b8c6 f1g2 f8e7 d4c5 g8f6 b1c3 e7c5 e1g1 e8g8 c1f4 c8d7 a2a3 f6h5 e2e4 h5f4 g3f4 d5d4 c3e2 d8b6 b2b4 c5d6"
+        },
+        "d1d3": {
+            "cp": "48",
+            "result": "3",
+            "line": "g8f6 f1g2 b7b6 c2c4 c8a6 b1d2 c5d4 d3c2 f8d6 c4d5 e6d5 f3d4 e8g8"
+        },
+        "c1g5": {
+            "cp": "50",
+            "result": "3",
+            "line": "d8b6 g5c1 b8c6 e2e3 g8f6 f1g2 c5d4 e3d4 f8d6 e1g1 e8g8 b1c3"
+        },
+        "b1a3": {
+            "cp": "53",
+            "result": "3",
+            "line": "c5d4 f1g2 d8a5 c1d2 a5b6 a1b1 b8c6 e1g1 g8f6 c2c4 d4c3 b2c3 b6d8 a3b5 e6e5 d2e3"
+        },
+        "h2h3": {
+            "cp": "57",
+            "result": "3",
+            "line": "c5d4 f3d4 g8f6 f1g2 f8e7 e1g1 e6e5 d4b3 e8g8 c2c4 d5c4 d1d8 f8d8 b3a5 b8c6 g2c6 b7c6"
+        },
+        "b2b3": {
+            "cp": "63",
+            "result": "3",
+            "line": "c5d4 d1d4 b8c6 d4b2 g8f6 f1g2 f8e7 e1g1 e8g8 c1f4 f6e4 c2c3 e7f6 f3d2 e4d2 b2d2 e6e5 f4e3"
+        },
+        "b1d2": {
+            "cp": "64",
+            "result": "3",
+            "line": "c5d4 d2b3 f7f6 f3d4 e6e5 d4b5 a7a6 b5c3 d5d4 c3e4 f6f5 e4d2 b8c6 f1g2 g8f6 e1g1 c8e6 c2c3 d4c3 b2c3"
+        },
+        "f3e5": {
+            "cp": "67",
+            "result": "3",
+            "line": "f8d6 e2e3 b8c6 e5c6 b7c6 f1e2 g8f6 e1g1 e8g8 c2c4 e6e5 c4d5 c6d5 b1c3 c5d4 e3d4 e5e4 c1f4 d6f4 g3f4 c8h3"
+        },
+        "g3g4": {
+            "cp": "75",
+            "result": "3",
+            "line": "c5d4 f1g2 f8b4 c2c3 d4c3 b1c3 g8f6 e1g1 e8g8 g4g5 f6d7 a2a3 b4c3 b2c3 d7c5 c1e3 c5e4 d1c2 b8c6 f3d4 e4g5"
+        },
+        "b2b4": {
+            "cp": "77",
+            "result": "3",
+            "line": "c5d4 a2a3 g8f6 f1g2 a7a5 b4b5 b8d7 d1d4 f8c5 d4b2 e8g8 e1g1 c5d6 b1d2 b7b6 c2c4 c8b7 a3a4 a8c8 c4d5 b7d5 f1d1 d6b4"
+        },
+        "f3g1": {
+            "cp": "85",
+            "result": "3",
+            "line": "c5d4 g1f3 f8b4 b1d2 b8c6 f3d4 c6d4 c2c3 g8e7 c3d4 e8g8 e2e3 c8d7 a2a3 b4a5 b2b4 a5b6 f1e2 a8c8 e1g1"
+        },
+        "f3d2": {
+            "cp": "90",
+            "result": "3",
+            "line": "c5d4 d2f3 g8f6 f3d4 f8e7 f1g2 e8g8 e1g1 e6e5 d4b3 c8e6 c1g5 b8d7 b1c3 a8c8 a2a3 d5d4 c3a4"
+        },
+        "f3h4": {
+            "cp": "90",
+            "result": "3",
+            "line": "c5d4 h4f3 f8b4 c1d2 b4c5 b2b4 c5d6 f3d4 g8f6 f1g2 e6e5 d4b3 e8g8 e1g1 b8c6 a2a3 a7a5 b4a5 c8e6 b1c3 c6a5 c3b5 a5c4 b5d6"
+        },
+        "f3g5": {
+            "cp": "91",
+            "result": "3",
+            "line": "c5d4 g5f3 g8f6 f1g2 f8e7 e1g1 e8g8 a2a3 b8c6 f3d4 e6e5 d4c6 b7c6"
+        },
+        "e2e4": {
+            "cp": "100",
+            "result": "3",
+            "line": "d5e4 f3d2 c5d4 d2e4 b8c6 f1d3 f8e7 e1g1 g8f6 e4f6 e7f6 b1d2 e8g8 f2f4 c8d7 a2a3 a8c8 d2e4 f6e7 c1d2 e6e5 f4e5"
+        },
+        "h1g1": {
+            "cp": "112",
+            "result": "3",
+            "line": "c5d4 f3d4 g8f6 c1g5 b8c6 e2e3 f8e7 b1c3 e8g8 d1e2 e6e5 d4b3 e5e4 g5f6 e7f6 e1c1 f6c3 b2c3"
+        },
+        "e1d2": {
+            "cp": "179",
+            "result": "3",
+            "line": "c5d4 d2e1 g8f6 h2h4 b8c6 f3d4 e6e5 d4c6 b7c6 c2c3 f8c5 e2e3 e8g8 b1d2 a7a5 f1e2 e5e4 d2b3 c5d6 b3d4 c8d7 b2b3"
+        },
+        "c1h6": {
+            "cp": "383",
+            "result": "3",
+            "line": "g8h6 e2e3 b8c6 c2c3 f8e7 d4c5 e8g8 b2b4 e7f6 d1b3 a7a5 b4b5 c6e5 f3e5 f6e5 b3a3 h6f5 b1d2 c8d7 d2f3"
+        }
+    }
+}
