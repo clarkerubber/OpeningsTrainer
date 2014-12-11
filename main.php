@@ -22,6 +22,9 @@ for ($x = $min; $x <= $max; ++$x) {
     $output = array();
     $output['fen'] = $openings[$x]['fen'];
     $output['moves'] = getMoves($openings[$x]['fen']);
+    if ($output['moves'] === false) {
+      continue;
+    }
     file_put_contents("output/$x.json", json_encode($output, JSON_PRETTY_PRINT));
   }
 }
