@@ -114,6 +114,10 @@ function getMoves ( $startpos ) {
     return false;
   }
 
+  if (count($candidateMovesEval) < 2) {
+    return false;
+  }
+
   echo "Ranking moves\n";
   $moveArray = array();
 

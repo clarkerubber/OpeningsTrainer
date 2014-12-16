@@ -25,6 +25,19 @@ for ($x = $min; $x <= $max; ++$x) {
     if ($output['moves'] === false) {
       continue;
     }
-    file_put_contents("output/$x.json", json_encode($output, JSON_PRETTY_PRINT));
+
+    $json = json_encode($output);
+
+    file_get_contents('http://en.lichess.org/api/opening?token=APITOKEN',null,stream_context_create(array(
+          'http' => array(
+              'protocol_version' => 1.1,
+              'user_agent'       => 'PHPExample',
+              'method'           => 'POST',
+              'header'           => "Content-type: application/json\r\n".
+                                    "Connection: close\r\n" .
+                                    "Content-length: " . strlen($json) . "\r\n",
+              'content'          => $json
+          ),
+      )));
   }
 }
