@@ -1,4 +1,4 @@
-<?
+<?php
 
 $openingFens = Array(
 "Alekhine Defense, Balogh Variation" => Array(

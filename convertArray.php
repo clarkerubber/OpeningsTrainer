@@ -1,4 +1,4 @@
-<?
+<?php
 ini_set('memory_limit','16000M');
 include('GMOpeningFens.php');
 

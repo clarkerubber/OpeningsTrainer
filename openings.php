@@ -1,4 +1,4 @@
-<?
+<?php
 
 $openings = array(
 "Alekhine Defense, Balogh Variation" => array("e2e4", "g8f6", "e4e5", "f6d5", "d2d4", "d7d6", "f1c4"),
