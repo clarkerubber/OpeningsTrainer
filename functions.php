@@ -73,10 +73,6 @@ function getMoves ( $startpos ) {
   $candidateMovesEval = array();
   $candidateMovesLine = array();
 
-  $lastMove = explode( ' ', $moveString );
-  array_pop( $lastMove );
-  $lastMove = array_pop( $lastMove );
-
   // Build list of candiate moves
   foreach ( $matches[2] as $key => $match ) {
     if ( !in_array( $match , $candidateMoves) ) {
