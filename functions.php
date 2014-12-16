@@ -22,6 +22,7 @@ function getUci ( $moveSequence, $moveTime, $multiPv = 1, $startpos = "rnbqkbnr/
     fwrite( $pipes[0], "uci\n" );
     fwrite( $pipes[0], "ucinewgame\n" );
     fwrite( $pipes[0], "isready\n" );
+    fwrite( $pipes[0], "setoption name Threads value 1\n" );
     fwrite( $pipes[0], "setoption name MultiPV value $multiPv\n" );
     if (strlen($moveSequence) > 0) {
       fwrite( $pipes[0], "position fen $startpos moves $moveSequence\n" );
