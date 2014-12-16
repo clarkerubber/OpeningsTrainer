@@ -1,4 +1,4 @@
-<?
+<?php
 
 //include("openings.php");
 ini_set('memory_limit','300M');
