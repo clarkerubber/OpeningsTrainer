@@ -28,7 +28,7 @@ for ($x = $min; $x <= $max; ++$x) {
 
     $json = json_encode($output);
 
-    file_get_contents('http://en.lichess.org/api/opening?token=APITOKEN',null,stream_context_create(array(
+    file_get_contents('http://en.l.org/api/opening?token=foo',null,stream_context_create(array(
           'http' => array(
               'protocol_version' => 1.1,
               'user_agent'       => 'PHPExample',
